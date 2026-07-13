@@ -30,3 +30,23 @@ class TaskManager:
         if task_id not in self.tasks:
             raise KeyError("Tarefa não encontrada.")
         return self.tasks.pop(task_id)
+    
+if __name__ == "__main__":
+    print("=== TECHFLOW TASK MANAGER ===")
+    
+    # Instanciando o gerenciador de tarefas
+    manager = TaskManager()
+    
+    # 1. Demonstração de Criação de Tarefa (Ajustado para o seu método real)
+    print("\n[Criando uma tarefa...]")
+    task = manager.create_task("Entregar carga Setor A", "Alta")
+    print(f"Tarefa criada com sucesso: {task}")
+    
+    # 2. Demonstração da Regra de Negócio (Bloqueio de título vazio)
+    print("\n[Testando restrição de segurança (Título Vazio)...]")
+    try:
+        manager.create_task("")
+    except ValueError as e:
+        print(f"Sucesso! O sistema bloqueou a operação. Erro esperado: {e}")
+        
+    print("\n=============================")
