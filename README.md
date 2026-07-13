@@ -17,3 +17,6 @@ Utilizamos o framework **Kanban** integrado diretamente ao ecossistema do GitHub
    3. Execute os testes unitários localmente:
    ```bash
    pytest
+   
+## 🔄 Gestão de Mudanças (Alteração de Escopo)
+**Justificativa:** Durante o alinhamento com a startup de logística, identificou-se que apenas listar tarefas não resolvia o problema de gargalo nas entregas.
