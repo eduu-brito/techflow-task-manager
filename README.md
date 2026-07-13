@@ -13,3 +13,7 @@ Utilizamos o framework **Kanban** integrado diretamente ao ecossistema do GitHub
    2. Instale o PyTest (necessário para os testes):
    ```bash
    pip install pytest
+
+   3. Execute os testes unitários localmente:
+   ```bash
+   pytest
