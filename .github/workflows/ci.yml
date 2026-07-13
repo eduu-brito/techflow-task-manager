@@ -26,5 +26,7 @@ jobs:
         pip install pytest
 
     - name: Test with pytest
+      env:
+        PYTHONPATH: .
       run: |
-        pytest techflow-task-manager/techflow-task-manager/tests/ || pytest techflow-task-manager/tests/ || pytest tests/
+        pytest tests/
