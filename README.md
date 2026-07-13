@@ -9,3 +9,7 @@ Utilizamos o framework **Kanban** integrado diretamente ao ecossistema do GitHub
 1. Clone o repositório:
    ```bash
    git clone [https://github.com/seu-usuario/techflow-task-manager.git](https://github.com/seu-usuario/techflow-task-manager.git)
+
+   2. Instale o PyTest (necessário para os testes):
+   ```bash
+   pip install pytest
