@@ -4,3 +4,8 @@ Sistema básico de gerenciamento de tarefas desenvolvido para otimização de fl
 
 ## 🚀 Metodologia Adotada
 Utilizamos o framework **Kanban** integrado diretamente ao ecossistema do GitHub para monitorar o fluxo de trabalho em tempo real, priorizar demandas críticas e garantir entregas contínuas e previsíveis.
+
+## 🛠️ Como Executar o Projeto
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/seu-usuario/techflow-task-manager.git](https://github.com/seu-usuario/techflow-task-manager.git)
